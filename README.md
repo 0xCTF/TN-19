@@ -1,6 +1,12 @@
 # TN-19 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/0xCTF/FindMyResults)
-[![GitHub (pre-)release](https://img.shields.io/badge/version-v1.0.9-orange.svg)](https://github.com/0xCTF/FindMyResults/releases/tag/1.0.9) 
+[![GitHub (pre-)release](https://img.shields.io/badge/version-v1.0.9-orange.svg)](https://github.com/0xCTF/FindMyResults/releases/tag/3.5) 
 [![GitHub (pre-)release](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]() 
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/42708935/152306023-f05eeb7e-ab40-42dc-a683-3a73870fc8f3.png">
+</p>
+
 
 > Feel free to make changes.
 
@@ -17,9 +23,6 @@
 </p>
 
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/42708935/152306023-f05eeb7e-ab40-42dc-a683-3a73870fc8f3.png">
-</p>
 
 **TN-19** is an app to follow your country coronavirus statistics in real-time
 
