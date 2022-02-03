@@ -28,7 +28,7 @@
 
 
 ## Author and contributors
-[*Mohamed Jawadi*](0xmohamed.tn) (*Creator, developer*)
+[*Mohamed Jawadi*](https://www.0xmohamed.tn) (*Creator, developer*)
 
 ## Contributing
 
