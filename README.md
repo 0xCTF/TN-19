@@ -17,9 +17,9 @@
 </p>
 
 
-
+<p align="center">
 ![image](https://user-images.githubusercontent.com/42708935/152306023-f05eeb7e-ab40-42dc-a683-3a73870fc8f3.png)
-
+</p>
 
 **TN-19** is an app to follow your country coronavirus statistics in real-time
 
