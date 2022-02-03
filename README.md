@@ -1,5 +1,5 @@
-# TN-19 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/0xCTF/FindMyResults)
-[![GitHub (pre-)release](https://img.shields.io/badge/version-v3.5-orange.svg)](https://github.com/0xCTF/FindMyResults/releases/tag/3.5) 
+# TN-19 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/0xCTF/TN-19)
+[![GitHub (pre-)release](https://img.shields.io/badge/version-v3.5-orange.svg)](https://github.com/0xCTF/TN-19/releases/tag/3.5) 
 [![GitHub (pre-)release](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]() 
 
 
