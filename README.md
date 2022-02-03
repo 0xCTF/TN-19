@@ -38,6 +38,6 @@ If you see an error or a place where content should be updated or improved, just
 
 
 ## LICENSE
-> © [MIT](https://github.com/0xCTF/TN-19/blob/master/LICENSE) | 2022.
+> © [MIT](https://github.com/0xCTF/TN-19/blob/main/LICENSE) | 2022.
 
 
