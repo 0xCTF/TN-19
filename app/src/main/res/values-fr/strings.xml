@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TN-19</string>
+
+    <string name="title_shop">Statistiques</string>
+    <string name="title_search">Chercher</string>
+    <string name="title_gifts">Gouvernorats</string>
+    <string name="title_cart">Conseils</string>
+    <string name="title_profile">Urgence</string>
+
+    <string name="title1">Statistiques globales</string>
+    <string name="title2">ÉVOLUTION DU CORONAVIRUS COVID-19 </string>
+
+    <string name="title3">Dernière MAJ</string>
+    <string name="title4">Chargement</string>
+    <string name="title5">Morts</string>
+    <string name="title6">Rétabli</string>
+    <string name="title_c">Cas</string>
+
+    <string name="title7">Statistiques Tunisie</string>
+
+    <string name="title8">Nombre total de cas</string>
+    <string name="title9">Nouveaux  cas</string>
+    <string name="title10">Total des décès</string>
+    <string name="title11">Nouvelles  morts</string>
+    <string name="title12">Total récupéré</string>
+    <string name="title13">Cas active</string>
+    <string name="title14">Cas critique</string>
+    <string name="title15">Nombre total de cas / 1M habitants</string>
+    <string name="title16">Recherche de statistiques des pays</string>
+    <string name="title17">Choisissez un pays</string>
+
+
+</resources>

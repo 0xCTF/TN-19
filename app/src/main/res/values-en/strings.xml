@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TN-19</string>
+    <string name="title1">Global statistics</string>
+    <string name="title10">Total deaths</string>
+    <string name="title11">New deaths</string>
+    <string name="title12">Total recovered</string>
+    <string name="title13">Active cases</string>
+    <string name="title14">Serious, critical</string>
+    <string name="title15">Tot cases/1M POP</string>
+    <string name="title16">Country statistics research</string>
+    <string name="title17">Select a country</string>
+    <string name="title2">"COVID-19 CORONAVIRUS OUTBREAK "</string>
+    <string name="title3">Last updated</string>
+    <string name="title4">Loading</string>
+    <string name="title5">Deaths</string>
+    <string name="title6">Recovered</string>
+    <string name="title7">"Tunisia statistics "</string>
+    <string name="title8">Total cases</string>
+    <string name="title9">New cases</string>
+    <string name="title_c">Cases</string>
+    <string name="title_cart">Advises</string>
+    <string name="title_gifts">Governorates</string>
+    <string name="title_profile">Emergency</string>
+    <string name="title_search">Search</string>
+    <string name="title_shop">Statistics</string>
+</resources>

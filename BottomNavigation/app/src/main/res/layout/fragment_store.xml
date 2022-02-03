@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="200px">
+
+        <WebView
+            android:id="@+id/wb"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Statistiques globales"
+                android:textColor="#5E5E5E"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/bg_view">
+
+            </View>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:text="ÉVOLUTION DU CORONAVIRUS COVID-19 "
+            android:textColor="#5E5E5E"
+            android:textSize="18dp" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_mediumitalic"
+                        android:text="Dernière MAJ"
+                        android:textColor="#ffff"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/maj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Chargement"
+                            android:textColor="#ffff"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Cas "
+                        android:textColor="#ffff"
+                        android:textSize="24dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/cas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Chargement"
+                            android:textColor="#ffff"
+                            android:textSize="18dp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Morts: "
+                        android:textColor="#ffff"
+                        android:textSize="24dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/death"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Chargement"
+                            android:textColor="#ffff"
+                            android:textSize="18dp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Rétabli"
+                        android:textColor="#ffff"
+                        android:textSize="24dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/recover"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Chargement"
+                            android:textColor="#ffff"
+                            android:textSize="18dp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Statistiques Tunisie"
+                android:textColor="#5E5E5E"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="#7a8b8b8b"></View>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Nombre total de cas"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                        <ProgressBar
+                            android:id="@+id/loadingPanel"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:indeterminate="true" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Nouveaux  cas"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/casN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel1"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Total des décès"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/dead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel12"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Nouvelles  morts"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/Ndead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel3"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Total récupéré"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/Totrec"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel4"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Cas active"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/act"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel5"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="cas critique"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/cri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel6"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Nombre total de cas / 1M habitants"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/tot1m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="#FFFFFF"
+                        android:textSize="29dp" />
+
+
+
+                    <ProgressBar
+                        android:id="@+id/loadingPanel7"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:indeterminate="true" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

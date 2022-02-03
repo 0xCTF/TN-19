@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+    <string name="title_shop">Statistiques</string>
+    <string name="title_gifts">Actualités</string>
+    <string name="title_cart">Conseils</string>
+    <string name="title_profile">Urgence</string>
+</resources>

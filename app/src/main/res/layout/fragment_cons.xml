@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="200px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="كيف أحمي نفسي من الإصابة؟"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/bg_view">
+
+            </View>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:text="توصي منظمة الصحة العالمية بالتالي"
+                android:textColor="#5E5E5E"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="#7a8b8b8b"></View>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                android:background="@drawable/ic_adv_white_24dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="نظف اليدين باستمرار بفركهما بمطهر كحولي أو غسلهما جيداً بالماء والصابون"
+                        android:textColor="#FFFFFF"
+                        android:textSize="21dp" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="عند السعال والعطس، احرص على تغطية الفم والأنف بمرفقك المثني أو بمنديل ورقي، وتخلص من المنديل بعد ذلك فوراً واغسل يديك"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="تجنب الاقتراب من الأشخاص المصابين بالحمى والسعال"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="إذا كنت مصابا بالحمى والسعال وصعوبة التنفس، التمس العناية الطبية مبكراً وأطلع مقدم الرعاية على أسفارك السابقة"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="عندما تزور أسواق المنتجات الحية في مناطق تشهد حالات عدوى بفيروس كورونا المستجد، تجنب اللمس المباشر للحيوانات الحية والأسطح التي تلامس تلك الحيوانات"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="تجنب تناول المنتجات الحيوانية النيئة أو غير المطهوة جيداً. وينبغي التعامل مع اللحوم النيئة أو الحليب الخام أو أعضاء الحيوانات بعناية تامة لتفادي انتقال الملوثات من الأطعمة غير المطهوة، وفقاً لممارسات السلامة الغذائية الجيدة."
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="false"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/ic_adv_white_24dp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

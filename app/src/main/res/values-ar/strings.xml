@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TN-19</string>
+    <string name="title1">الإحصائيات العالمية</string>
+    <string name="title10">"إجمالي الوفيات "</string>
+    <string name="title11">"وفيات جديدة "</string>
+    <string name="title12">إجمالي المتعافين</string>
+    <string name="title13">"الحالات النشطة "</string>
+    <string name="title14">الحالات الخطرة</string>
+    <string name="title15">مجموع الحالات\\مليون ساكن</string>
+    <string name="title16">"البحث عن إحصائيات دولة "</string>
+    <string name="title17">اختر دولة</string>
+    <string name="title2">تطور فيروس COVID-19</string>
+    <string name="title3">"آخر تحديث "</string>
+    <string name="title4">جارٍ التحميل</string>
+    <string name="title5">الوفيات</string>
+    <string name="title6">المتعافون</string>
+    <string name="title7">إحصائيات تونس</string>
+    <string name="title8">مجموع الحالات</string>
+    <string name="title9">حالات جديدة</string>
+    <string name="title_c">عدد الحالات</string>
+    <string name="title_cart">نصائح</string>
+    <string name="title_gifts">بالولايات</string>
+    <string name="title_profile">طوارئ</string>
+    <string name="title_search">بحث</string>
+    <string name="title_shop">إحصائيات</string>
+
+</resources>
